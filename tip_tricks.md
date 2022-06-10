@@ -269,6 +269,7 @@ hadoopConf.set("mapreduce.outputcommitter.factory.scheme.s3a", "org.apache.hadoo
 - widening transforamtion marks a stage, there is a stage for each partition and stages run in parallel
 
 ## Action
+- Action is when DAG execution is initiated.
 - Actions triggers a job. Action marks a job. Jobs run in sequence
 - these are - read, write, collect, take, count
 
